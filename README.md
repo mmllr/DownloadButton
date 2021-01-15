@@ -120,6 +120,12 @@ it, simply add the following line to your Podfile:
 pod "DownloadButton"
 ```
 
+To use DownloadButton with Swift Package Manager, add  https://github.com/PavelKatunin/DownloadButton in ```Xcodes File->Swift Packages->Add Packages Dependency...``` or add the follwing line to your ```Package.swift``` dependency section:
+
+```swift
+.package(name: "DownloadButton", url: "https://github.com/PavelKatunin/DownloadButton", from: "0.2.0"),
+```
+
 ## Author
 
 Pavel Katunin, wk.katunin@gmail.com
